@@ -1,0 +1,179 @@
+
+.login {
+  color: #3a6161;
+  border-color: #3a6161 !important;
+}
+
+.form-label {
+  margin-bottom: 0px !important;
+}
+
+.custom-border {
+  border: 1px solid #3a6161 !important;
+  border-radius: 0.25rem;
+}
+
+.custom-btn, .custom-btn:focus {
+  color: aliceblue;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  padding: 6px 16px 6px 16px;
+  border: 1px solid !important;
+  background: #3a6161 !important;
+}
+
+.hbig {
+  font-size: 70px;
+}
+
+.navbar-text {
+  text-transform: uppercase !important;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.d-contents {
+  display: contents;
+}
+
+.navlink-text {
+  color:aliceblue !important;
+}
+
+.navlink-text:focus {
+  color: #0e1f2f !important;
+}
+
+.nav-item .navbar-light .navbar-nav .nav-link {
+  color:aliceblue !important;
+}
+
+.navbar-bg {
+  background: #3a6161;
+}
+.navbar-nav {
+  display: contents !important;
+}
+
+.notificationWrapper {
+  position: fixed;
+  top: 88px;
+  right: 10px;
+  width: 300px;
+  background-color: white !important;
+}
+
+.notification {
+  box-shadow: 0 0 10px rgba(0,0,0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  animation: SlideLeft 0.4s;
+  animation-fill-mode: forwards;
+  width: 300px;
+  background-color: white !important;
+}
+
+@keyframes SlideLeft {
+  0% {
+    margin-left: 120%;
+  }
+
+  100% {
+    margin-left: 0;
+  }
+}
+
+@keyframes SlideRight {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: 120%;
+  }
+}
+
+
+.notification.exit {
+  animation: SlideRight 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.notification p {
+  margin: 0;
+  padding: 10px !important;
+}
+
+.notification .bar {
+  height: 10px !important;
+}
+
+.notification.success .bar {
+  background-color: #65d266 !important;
+}
+
+.notification.error .bar {
+  background-color: red !important;
+}
+
+.notificationIconSuccess{
+  color: #65d266 !important;
+}
+
+.notificationIconError{
+  color: red !important;
+}
+
+.forgotpasswordbtn {
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 55%;
+  background-color: #519353;
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.forgotpasswordbtn:hover {
+  background-color: #a3c4a3;
+  border: none;
+  color: black;
+}
+
+.forgotpwwrapper {
+  margin: 60px auto auto;
+  justify-content: center;
+  width: 30%;
+  box-shadow: 11px 12px 13px 12px rgb(207,207,207);
+  padding: 30px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.changePasswordWrapper {
+  margin: 60px auto auto;
+  justify-content: center;
+  text-align: center;
+  width: 30%;
+  box-shadow: 11px 12px 13px 12px rgb(207,207,207);
+  padding: 30px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.changePasswordCenter{
+  justify-content: center !important;
+  align-content: center !important;
+}
+
+.changePasswordInputSt{
+  width: 100% !important;
+}
